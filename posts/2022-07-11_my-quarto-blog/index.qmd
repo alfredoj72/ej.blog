@@ -5,6 +5,9 @@ categories: [quarto]
 css: assets/my_css_file.css 
 draft: false
 image: "imagenes/thumbnail.png"
+bibliography: references.bib
+nocite: |
+  @*
 ---
 
 Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog.
@@ -19,6 +22,31 @@ LLevo unos días intentando crear un `quarto blog`. ya tengo experiencia, así q
 ::: column-margin
 Sí, la verdad es que es conveniente apuntarse cosas que luego ...
 :::
+
+
+## ¿Qué es Quarto?
+
+Cómo se dice en su página web:
+
+> Quarto® is an open-source scientific and technical publishing system built on Pandoc
+
+Es como una "segunda versión" de Rmarkdown:
+
+> Quarto is a multi-language, next generation version of R Markdown from RStudio, with many new features and capabilities. Like R Markdown, Quarto uses Knitr to execute R code, and is therefore able to render most existing Rmd files without modification.
+
+Quarto, no es un paquete de R, es una aplicación independiente, de forma que se puede usar sin R. Puede usarse para correr chunk de R, Phyton, Julia y Observable. Se pueden generar documentos reproducibles con `markdown` o con `jupiter notebooks`.
+
+Como con Rmarkdown, se pueden hacer:  reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
+
+
+## ¿Cómo hacer un blog con Quarto?
+
+- Has de [instalar Quarto](https://quarto.org/docs/get-started/)^[Las últimas versiones de RStudio ya instalan Quarto, aquneu Mine recomienda actualizar Quarto frecuentemente]
+
+- Si sigues la ruta de menús: `File > New Project > New Directory > Quarto Blog` se te creará una Rproject con un blog.
+
+
+
 
 <br><br>
 

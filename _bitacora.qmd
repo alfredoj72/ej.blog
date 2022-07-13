@@ -181,6 +181,8 @@ The .column-margin class is handy for margin asides, but there are several other
 
 #### Slides
 
+- Emi Tanaka se pasa revealjs [How to transition from xaringan to Quarto revealjs](https://emitanaka.org/posts/2022-07-11-transitioning-from-xaringan-to-quarto-revealjs/)
+
 -   Unas [slides **GOOD** de Bea Milz](https://beatrizmilz.github.io/2022-SER-quarto/#/){target="_blank"}. El [repo](https://github.com/beatrizmilz/2022-SER-quarto){target="_blank"}
 
 - [Slides de Meghan Hall](https://meghan.rbind.io/blog/quarto-slides/). El repo está [aquí]()
