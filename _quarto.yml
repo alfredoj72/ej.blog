@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "R & flowers &nbsp; (a quarto blog)"
+  title: "R & flowers &nbsp; (a quarto blog) &nbsp; //AÚN en PRUEBAS//"
   favicon: imagenes/favicon.ico
   #site-url: https://blog.djnavarro.net
   #repo-url: https://github.com/djnavarro/quarto-blog
