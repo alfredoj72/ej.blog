@@ -1,0 +1,30 @@
+---
+title: "Creación de un  blog con Quarto"
+date: 2022-07-11
+categories: [quarto]
+css: assets/my_css_file.css 
+draft: false
+image: "imagenes/thumbnail.png"
+---
+
+Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog.
+
+<br>
+
+## Introducción
+
+LLevo unos días intentando crear un `quarto blog`. ya tengo experiencia, así que no me está resultando muy complicado, pero mejor si dejo aquí algunas notas.
+
+
+::: column-margin
+Sí, la verdad es que es conveniente apuntarse cosas que luego ...
+:::
+
+<br><br>
+
+## Referencias
+
+Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos:
+
+::: {#refs}
+:::

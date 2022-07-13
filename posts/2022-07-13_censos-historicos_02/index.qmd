@@ -1,0 +1,84 @@
+---
+title: "Evolución del número de municipios en España (1842-2021)"
+date: 2022-07-13
+categories: [datos INE, Censos históricos, municipios]
+#css: assets/my_css_file.css 
+draft: false
+image: "imagenes/thumbnail.png"
+---
+
+Utilizando datos de los censos históricos y del Padrón, se realizan visualizaciones de la evolución del número de municipios españoles en el tiempo, desde el censo de 1842 hasta la actualidad.
+
+<br>
+
+## Introducción
+
+En el [post anterior]() describí el proceso para obtener los datos de los censos históricos del INE. Los censos proporcionan datos de población a nivel municipal[^1], de forma que ahora utilizaré esos datos para analizar como ha evolucionado el **número de municipios en España** en el tiempo.
+
+[^1]: Para obtener datos de población a nivel de localidad o núcleos de población hay que acudir al [Nomenclátor del INE](https://www.ine.es/nomen2/index.do).
+
+::: column-margin
+**Objetivo**: ver la evolución del número de municipios en España.
+:::
+
+El municipio en España es una **entidad administrativa de nivel local** que puede agrupar a una o varias localidades; por ejemplo el [municipio de Pancrudo](https://es.wikipedia.org/wiki/Pancrudo) agrupa cuatro localidades[^2].Los municipios no son entidades fijas, sino que por distintos motivos **hay municipios que desaparecen y otros que aparecen**. Por ejemplo, [Torremolinos](https://www.ine.es/intercensal/intercensal.do?search=1&error1=Debe+introducir+un+nombre+de+municipio.&error2=Debe+introducir+al+menos+3+caracteres.&cmbTipoBusq=0&textoMunicipio=Torremolinos&btnBuscarDenom=Consultar+selecci%C3%B3n) existió como municipio hasta el censo de 1920, para desaparecer en el de 1930 por su integración en el municipio de Málaga, para posteriormente, en el censo de 1991, volver a ser municipio tras segregarse de Málaga.
+
+[^2]: Una localidad es una división administrativa o territorial formada por un núcleo de población con identidad propia, ya sea esta una aldea, pueblo o ciudad
+
+::: column-margin
+El número de municipios cambia en el tiempo.
+:::
+
+## ¿Cuantos municipios han existido en España?
+
+Debería ser una pregunta fácil de responder pero no lo es; como ejemplo [este documento](https://www.hacienda.gob.es/Documentacion/Publico/SGT/CATALOGO_SEFP/100_Variaciones-INTERNET.pdf). Hasta donde yo sé, no existe en España un registro del que pueda obtenerse el número de municipios que han existido en el tiempo; así que, trataré de dar una respuesta utilizando los datos de los Censos históricos y del Padrón.
+
+::: column-margin
+No es una pregunta fácil.
+:::
+
+Lo que si puedo decir es que, con datos del Padrón de 2021, **actualmente hay en España 8.131 municipios**.
+
+::: column-margin
+Actualmente hay 8.131 municipios.
+:::
+
+El INE proporciona datos de **18 censos** de población, el primero en 1842 y el último en 2011. En el censo de 1842 hay datos de 11.291 municipios, mientras que en el de 2021, hay 8.116; es decir, una reducción de 3.175 municipios a lo largo de este periodo. Con esta información parece que la respuesta debería ser 11.291, pero no es así, la dinámica de creación y desaparición de municipios es más compleja, hay municipios como [Torremolinos](https://www.ine.es/intercensal/intercensal.do?search=1&error1=Debe+introducir+un+nombre+de+municipio.&error2=Debe+introducir+al+menos+3+caracteres.&cmbTipoBusq=0&textoMunicipio=Torremolinos&btnBuscarDenom=Consultar+selecci%C3%B3n), que desaparecen y vuelven a aparecer.
+
+En los 18 censos que proporciona el INE podemos encontrar un total de **11.910 códigos municipales únicos**, así que parece que han existido en ese periodo el mismo número de municipios. Digo parece porque la respuesta no es tan clara, ya que hay casos como la localidad Gatova, que cambió su código municipal de 12066 a 46092 al incorporarse a la provincia de Valencia, desde la de Castellón, en el censo de 2001. ¿Son municipios diferentes? Bueno, podemos pensar que sí, ya que tienen códigos municipales diferentes.
+
+Así que, según mis cuentas y utilizando datos de los Censos[^3], han existido[^4] en España **11.910 municipios**.
+
+[^3]: En realidad según los códigos municipales únicos que he encontrado en la web de los censos históricos del INE
+
+[^4]: En realidad debería decir han sido censados.
+
+::: column-margin
+Con datos de los Censos, de 1842 a 2011, han existido 11.910 municipios.
+:::
+
+Sin embargo, el último censo publicado es de 2011 y estamos en 2022, así que se han podido crear más municipios desde 2011 hasta la actualidad. Efectivamente, si utilizamos los datos del Padrón[^5], desde 2011 a 2022 se crearon en España 16 municipios que no existían antes, por lo que la respuesta final es: **han existido 11.926 municipios** en Spain.
+
+[^5]: Utilizo datos de población del Padrón continuo 1996 y 1998 a 2021
+
+::: column-margin
+Añadiendo los datos del Padrón, ese número aumenta hasta los **11.926 municipios**.
+:::
+
+Como actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso quiere decir que desde el censo de 1842 se ha reducido el número de municipios en 3.795.
+
+## Evolución del número de municipios (Censos)
+
+Utilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en el gráfico 1.
+
+```{r, echo = FALSE}
+name_of_plot <- "plot_nn_muni_censo.png"
+rutita <- paste0("./imagenes/", name_of_plot)
+knitr::include_graphics(rutita)
+```
+
+## Biblio
+
+Biblio:
+
+-   artículo PAIS: <https://elpais.com/elpais/2017/02/02/media/1486066904_389254.html> La mitad de municipios puede desaparecer

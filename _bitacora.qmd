@@ -1,0 +1,188 @@
+---
+title: "Bitacora"
+author: "Pedro J. Pérez"
+format: 
+  html:
+    theme: minty  #- https://quarto.org/docs/output-formats/html-themes.html
+    #-https://quarto.org/docs/websites/website-blog.html#themes
+    backgroundcolor: "#F1F3F4"
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    smooth-scroll: true
+    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
+    html-math-method: katex
+    citations-hover: false
+    footnotes-hover: false
+    css: styles.css
+comments:
+  hypothesis: 
+    theme: clean
+---
+
+------------------------------------------------------------------------
+
+Bitacora para aprender a gestionar un quarto blog.
+
+::: {.callout-important collapse="false" appearance="default" icon="true"}
+## Para procesar `_bicatora.qmd`
+
+Para hacer un render de `_bitacora.qmd` has de correr en la terminal: `quarto render _bitacora.qmd`
+:::
+
+------------------------------------------------------------------------
+
+## 1. Tuneado
+
+### 1.a Fichero `index.qmd`
+
+En el **yaml** del fichero `index.qmd`:
+
+-   `title: My last blog` cambia el título que se ve segundo en el blog
+
+<br>
+
+### 1.b Fichero `_quarto.yml`
+
+-   En `title: R & flowers` cambias el verdadero título
+
+-   Tb cambias los enlaces a **Github** y **Twitter**
+
+### 1.c Fichero `about.qmd`
+
+-   He puesto ahí la información sobre G-schollar y Orcid
+
+
+### 1.d Fichero `posts/_metadata.yml`
+
+- `freeze: true` significa q los posts **nunca se actualizan** si haces un render del proyecto. Lo explican [aquí](https://quarto.org/docs/projects/code-execution.html#freeze)
+
+
+### 1.e referencias
+
+- Mas info [aquí](https://quarto.org/docs/authoring/footnotes-and-citations.html)
+
+- Exportas fichero .bib desde Zotero y lo pones en el yaml del post con `bibliography: export-data.bib`
+
+- Para referencia en el texto has de poner `@ref` 
+
+- Para sección de bibliografía al final has de poner
+
+```
+## Referencias
+
+::: {#refs}
+:::
+```
+
+
+
+<br>
+
+------------------------------------------------------------------------
+
+<br>
+
+## 2. Posts
+
+<br>
+
+------------------------------------------------------------------------
+
+<br>
+
+## Z. TRUCOS
+
+-   Para que a la lista de post no se incorporen todos los ficheros `*.qmd` si no solo algunos. Lo explica Mine [aquí](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){target="_blank"}
+
+-   Para que al abrir un link externo se abra en otra pestaña, has de poner al final del link `{target="_blank"}` Por ejemplo: `[Wikidata](https://wikidata.com){target="_blank"}`
+
+-   Para definir una class en CSS: <https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/11-spans/>
+
+-   Comentarios (o imágenes) en los márgenes:
+
+```{=html}
+<!-- -->
+```
+    :::{.column-margin}
+    The .column-margin class is handy for margin asides, but there are several other useful classes that come in handy when adding images to blog posts, leelo [aquí](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#playing-around)
+    :::
+
+::: column-margin
+The .column-margin class is handy for margin asides, but there are several other useful classes that come in handy when adding images to blog posts, leelo [aquí](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#playing-around)
+:::
+
+-   Insertar una web o unas slides o cualquier cosa, lo explica Mine [aquí](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/). Es un quarto tip.
+
+
+- [Actualizar Quiarto con homebrew](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/13-homebrew/)
+
+<br>
+
+------------------------------------------------------------------------
+
+<br>
+
+## ZZ. TODO
+
+-   Poner un icono de e-mail en el blog y en about
+
+-   Arreglar el texto de `about.qmd`
+
+<br>
+
+------------------------------------------------------------------------
+
+<br>
+
+## ZZ. Biblio
+
+### Oficial
+
+- [Quarto](https://quarto.org/){target="_blank"}
+
+- [Quarto: crear un blog](https://quarto.org/docs/websites/website-blog.html){target="_blank"}
+
+- Para pedir ayuda: [Lo explica Mine](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/15-help/). [Discussion sobre quarto](https://github.com/quarto-dev/quarto-cli/discussions)  y las [issues](https://github.com/quarto-dev/quarto-cli/issues)
+
+### Mas
+
+-   [Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day){target="_blank"}
+
+-   [We don't talk about Quarto](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/){target="_blank"} de Apres Hill
+
+-   [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/){target="_blank"} de Bae Milz
+
+-   [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/){target="_blank"} de Danielle Navarro.
+
+-   [Otro post de porting a distill](https://michaeldewittjr.com/programming/2022-06-05-moving-to-quarto/index.html){target="_blank"}
+
+-   Un video: [How to style you quarto](https://www.youtube.com/watch?v=ErRX8plZpQE){target="_blank"}
+
+-   [Crear un quarto blog](https://www.backyardstats.org/posts/create-quarto-blog/){target="_blank"}
+
+### Ejemplos
+
+#### Webs
+
+-   Una **quarto web** con link al blog **ESTUPENDO!!**: <https://twitter.com/schochastics/status/1545500169533259777>. La web [aquí](https://www.mr.schochastics.net/){target="_blank"} y el [repo](https://github.com/schochastics/quarto-schochastics). Tiene tb muchos repos de mapas etc ...
+
+#### Blogs
+
+- [Danielle Navarro](https://blog.djnavarro.net/). El repo [aquí](https://github.com/djnavarro/quarto-blog)
+
+-   [Albert Rapp](https://twitter.com/rappa753/status/1531692573126959106){target="_blank"}. El [repo](https://github.com/AlbertRapp/quarto_bottomup_blog){target="_blank"}
+
+-   [Bea Milz](https://beamilz.com/){target="_blank"} **Good!!**. El [repo](https://github.com/beatrizmilz/blog-en){target="_blank"}
+
+-   [Backyard Statistics](https://www.backyardstats.org/){target="_blank"}
+
+#### Slides
+
+-   Unas [slides **GOOD** de Bea Milz](https://beatrizmilz.github.io/2022-SER-quarto/#/){target="_blank"}. El [repo](https://github.com/beatrizmilz/2022-SER-quarto){target="_blank"}
+
+- [Slides de Meghan Hall](https://meghan.rbind.io/blog/quarto-slides/). El repo está [aquí]()
+
+-   Otras [slides sobre quarto](https://runapp2022.talks.jamesgoldie.dev){target="_blank"}; ademas la charla está grabada [🎥 Recording](https://lnkd.in/dqEsKekr){target="_blank"}. El [repo](https://github.com/jimjam-slam/talk-runapp-quarto-2022){target="_blank"}. Pertenece a una organizacion de github q hace análisis públicos con datos y que ya usa QUARTO: <https://github.com/360-info>

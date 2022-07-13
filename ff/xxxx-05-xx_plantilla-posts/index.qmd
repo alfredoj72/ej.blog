@@ -1,0 +1,29 @@
+---
+title: "Censos históricos (1842-2011): obtención de los datos"
+date: 2022-05-16
+categories: [datos INE, Censos históricos, población, municipios]
+css: assets/my_css_file.css 
+draft: true
+image: "imagenes/thumbnail.png"
+---
+
+Se describe el proceso de obtención y procesado de los datos de los censos históricos de población en España (1842-2011) que ofrece el INE.
+
+<br>
+
+## Introducción
+
+A todos nos gusta saber cuantos habitantes tiene nuestro pueblo; y como nos dice [el conde Draco](https://www.youtube.com/watch?v=KZmLI7eYjmw){target="_blank"} 
+
+::: column-margin
+Veremos que hago con estos datos ...
+:::
+
+<br><br>
+
+## Referencias
+
+Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos:
+
+::: {#refs}
+:::
