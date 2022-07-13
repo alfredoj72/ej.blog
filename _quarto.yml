@@ -1,5 +1,7 @@
 project:
   type: website
+  output-dir: docs
+
 website:
   title: "R & flowers &nbsp; (a quarto blog)"
   favicon: imagenes/favicon.ico
