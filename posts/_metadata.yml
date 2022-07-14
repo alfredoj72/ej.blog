@@ -37,6 +37,8 @@ citation: true
 # image as thumbnail
 # image: "imagenes/thumbnail.png"
 
+#- https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/16-code-tools/
 code-fold: true
 code-tools: true
 code-link: true
+

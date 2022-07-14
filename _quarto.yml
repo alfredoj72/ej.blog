@@ -6,6 +6,7 @@ website:
   title: "R & flowers &nbsp; (a quarto blog) &nbsp; //AÚN en PRUEBAS//"
   favicon: imagenes/ababol_redondeado.ico
   site-url: https://perezp44.github.io/pjperez.blog.2022/
+  google-analytics: "G-ED7L025LCP"
   #site-url: https://blog.djnavarro.net
   repo-url: https://github.com/perezp44/pjperez.blog.2022
   open-graph: true #-https://quarto.org/docs/websites/website-tools.html#twitter-cards
