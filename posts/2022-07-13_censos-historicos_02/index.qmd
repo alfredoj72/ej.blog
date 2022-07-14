@@ -80,7 +80,11 @@ rutita <- paste0("./imagenes/", name_of_plot)
 knitr::include_graphics(rutita)
 ```
 
-En el @tbl-muni se aprecia que el censo de 1842, como leí no sé donde, fue un censo un poco extraño: del censo de 1842 al siguiente se redujo el número de municipios en 1933. Esta reducción, como se aprecia en @tbl-nn-muni-censo  ,es resultado de que desaparecieron 2199 municipios mientras que aparecieron, o se crearon, 266.
+
+
+En  @fig-nn-muni-censo se aprecia que desde 1842 se ha reducido el número de municipios, principalmente entre el censo de 1842 y el de 1933, y en los censos de 1979 y 1981. De las explicaciones no sé mucho: 1) el censo de 1842 fue, como leí no sé donde, un censo extraño, y 2) A partir de 1970 se hizo un esfuerzo politico por reducir el número de municipios .....
+
+El @fig-nn-muni-censo propòrciona información, pero la tabla siguiente  @tbl-muni se amplia un poco esa información, apreciandosé que del censo de 1842 al siguiente se redujo el número de municipios en 1933; pero esa reducción, como se aprecia en @tbl-nn-muni-censo  , es resultado de que desaparecieron 2.199 municipios mientras que aparecieron, o se crearon, 266.
 
 
 Para ahondar un poco más en la dinámica de la evolución del número de municipios en el tiempo, en la @tbl-muni se muestra más información.
@@ -128,7 +132,7 @@ El @fig-nn-muni-padron muestra que a partir de 1996, el número de municipios ha
 
 ## Curiosidades
 
-En @fig-nn-muni-censo y @fig-nn-muni-padron se muestran datos sobre la evolución del número de municipios, y hay 2 años (2002 y 2011) en que tenemos cifras para el número de municipios procedentes de 2 fuentes: Censos y padrón. ¿Coincidirán? No . Ya diré porqué. Es "logico", bueno, puede pasar.
+En @fig-nn-muni-censo y @fig-nn-muni-padron se muestran datos sobre la evolución del número de municipios, y hay 2 años (2001 y 2011) en que tenemos cifras para el número de municipios procedentes de 2 fuentes: Censos y padrón. ¿Coincidirán? No . Ya diré porqué. Es "logico", bueno, puede pasar.
 
 
 
