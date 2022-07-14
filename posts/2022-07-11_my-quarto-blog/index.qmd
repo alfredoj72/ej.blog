@@ -41,9 +41,46 @@ Como con Rmarkdown, se pueden hacer:  reports, presentations, websites, blogs, a
 
 ## ¿Cómo hacer un blog con Quarto?
 
-- Has de [instalar Quarto](https://quarto.org/docs/get-started/)^[Las últimas versiones de RStudio ya instalan Quarto, aquneu Mine recomienda actualizar Quarto frecuentemente]
+- Has de [instalar Quarto](https://quarto.org/docs/get-started/)^[Las últimas versiones de RStudio ya instalan Quarto, aunque Mine recomienda actualizar Quarto frecuentemente]
 
-- Si sigues la ruta de menús: `File > New Project > New Directory > Quarto Blog` se te creará una Rproject con un blog.
+- Si sigues la ruta de menús: `File > New Project > New Directory > Quarto Blog` se te creará una Rproject con un blog. 
+
+- El Rproject que acabamos de crear tendrá esta estructura de archivos y carpetas:
+
+
+::: {#fig-quarto-blog layout-ncol=3}
+
+
+
+```{r}
+#| echo: false
+#| fig.cap: "Estructura del Rproject (blog)"
+name_of_plot <- "imagen_01.png"
+rutita <- paste0("./imagenes/", name_of_plot)
+knitr::include_graphics(rutita)
+```
+
+```{r}
+#| echo: false
+#| fig.cap: "Carpeta de posts: cada post en una carpeta"
+
+name_of_plot <- "imagen_02.png"
+rutita <- paste0("./imagenes/", name_of_plot)
+knitr::include_graphics(rutita)
+```
+
+```{r}
+#| echo: false
+#| fig.cap: "Carpeta de un post (Wellcome post)"
+name_of_plot <- "imagen_03.png"
+rutita <- paste0("./imagenes/", name_of_plot)
+knitr::include_graphics(rutita)
+```
+
+
+Estructura de carpetas del Rproject con nuestro blog
+:::
+
 
 
 
@@ -52,7 +89,7 @@ Como con Rmarkdown, se pueden hacer:  reports, presentations, websites, blogs, a
 
 ## Referencias
 
-Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos:
+(Algunos artículos sobre Quarto)
 
 ::: {#refs}
 :::

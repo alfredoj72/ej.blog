@@ -37,3 +37,6 @@ citation: true
 # image as thumbnail
 # image: "imagenes/thumbnail.png"
 
+code-fold: true
+code-tools: true
+code-link: true

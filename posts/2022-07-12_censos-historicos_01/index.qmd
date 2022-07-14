@@ -10,6 +10,9 @@ categories: [datos INE, Censos históricos, población, municipios]
 css: assets/my_css_file.css 
 draft: false
 image: "imagenes/thumbnail.png"
+bibliography: references.bib
+nocite: |
+  @*
 ---
 
 Se describe el proceso de obtención y procesado de los datos de los censos históricos de población en España (1842-2011) que ofrece el INE.
@@ -58,17 +61,15 @@ El proceso de scraping tuvo **varias etapas**
 
 Parecía que todo estaba bien, que había conseguido localizar todos los municipios existentes en la web del INE, pero ... no me fiaba ya que del procesado de texto siempre suele haber errores, así que gracias a que conozco a Francisco J. Goerlich, seguramente la persona que más sabe de estos temas[^5], conseguí detectar que **me faltaban aún 28 municipios por encontrar**. El fallo no fue causado por mi proceso de scraping sino por "fallos" en las anotaciones en las tablas del INE.
 
-[^5]: Los municipios San Quirce de Riopisuerga (09342), Gátova (12066), Rivas de Tereso (26504) y Los Hueros (28511).
+[^5]: Y de muchos otros (temas) 🙂.
 
 ::: column-margin
 Tras las 5 vueltas del scraping se recopilaron datos de **11.882 códigos municipales** ...
 :::
 
-De los 28 municipios que el scraping detectó, en 4 de ellos[^6] el motivo fue que había fallos[^7] en las notas que hubieran permitido detectarlos. En los restantes 24 municipios que no se detectaron, la razón fue similar: son municipios que solo aparecen en el primer censo que registra el INE, el de 1842, y en su nota al pie solo pone algo como "Este municipio que aparece en el Censo de 1842, ..., no se le localiza en el Censo de 1857", pero no dice si se integraron en otro municipio o se volatilizaron, de forma que era imposible detectarlos mediante el proceso de Web scraping.
+De los 28 municipios que el scraping no detectó, en 4 de ellos el motivo fue que había fallos[^7] en las notas que hubieran permitido detectarlos. En los restantes 24 municipios que no se detectaron, la razón fue similar: son municipios que solo aparecen en el primer censo que registra el INE, el de 1842, y en su nota al pie solo pone algo como "Este municipio que aparece en el Censo de 1842, ..., no se le localiza en el Censo de 1857", pero no dice si se integraron en otro municipio o se volatilizaron, de forma que era imposible detectarlos mediante el proceso de Web scraping. 
 
-[^6]: Los municipios San Quirce de Riopisuerga (09342), Gátova (12066), Rivas de Tereso (26504) y Los Hueros (28511).
-
-[^7]: Concretamente el fallo consistió en que su código municipal en la nota que hubiese permitido detectarlos estaba incompleto, ya que solo tenía 3 dígitos en lugar de los 5 habituales.
+[^7]: Los 4 municipios son San Quirce de Riopisuerga (09342), Gátova (12066), Rivas de Tereso (26504) y Los Hueros (28511). El fallo consistió en que su código municipal estaba incompleto en la nota que hubiese permitido detectarlos; concretamente su código municipal solo tenía 3 dígitos en lugar de los 5 habituales.
 
 ::: column-margin
 ... pero aún faltaban 28 municipios.
@@ -138,7 +139,7 @@ Veremos que hago con estos datos ...
 
 ## Referencias
 
-Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos:
+(Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos)
 
 ::: {#refs}
 :::

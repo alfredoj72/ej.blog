@@ -4,9 +4,10 @@ project:
 
 website:
   title: "R & flowers &nbsp; (a quarto blog) &nbsp; //AÚN en PRUEBAS//"
-  favicon: imagenes/favicon.ico
+  favicon: imagenes/ababol_redondeado.ico
+  site-url: https://perezp44.github.io/pjperez.blog.2022/
   #site-url: https://blog.djnavarro.net
-  #repo-url: https://github.com/djnavarro/quarto-blog
+  repo-url: https://github.com/perezp44/pjperez.blog.2022
   open-graph: true #-https://quarto.org/docs/websites/website-tools.html#twitter-cards
   twitter-card:
     creator: "@pjpv4444"

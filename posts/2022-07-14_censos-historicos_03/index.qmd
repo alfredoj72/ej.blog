@@ -15,3 +15,8 @@ Utilizando datos de los censos históricos y del Padrón, se presentan visualiza
 
 ## Introducción
 
+Tambien haré:
+
+- importancia histórica de las provincias (en cuanto a población)
+- importancia histórica de las capitales de provincia (en su provincia)
+- ¿Está más concentrada la población ahora que antes? 50% de lapoblación de España

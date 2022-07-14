@@ -69,12 +69,78 @@ Como actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso q
 
 ## Evolución del número de municipios (Censos)
 
-Utilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en el gráfico 1.
+Utilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en @fig-nn-muni-censo.
 
-```{r, echo = FALSE}
+```{r}
+#| echo: false
+#| label: fig-nn-muni-censo
+#| fig-cap: "Evolución del número de municipios (datos de los Censos). \n Juro que mejoraré el gráfico!!!!"
 name_of_plot <- "plot_nn_muni_censo.png"
 rutita <- paste0("./imagenes/", name_of_plot)
 knitr::include_graphics(rutita)
+```
+
+En el @tbl-muni se aprecia que el censo de 1842, como leí no sé donde, fue un censo un poco extraño: del censo de 1842 al siguiente se redujo el número de municipios en 1933. Esta reducción, como se aprecia en @tbl-nn-muni-censo  ,es resultado de que desaparecieron 2199 municipios mientras que aparecieron, o se crearon, 266.
+
+
+Para ahondar un poco más en la dinámica de la evolución del número de municipios en el tiempo, en la @tbl-muni se muestra más información.
+
+
+
+
+```{r, include = FALSE}
+my_folder_post <- "/posts/2022-07-13_censos-historicos_02/"
+my_script <- "02_script_crear-tabla-01.R" 
+path_file <- paste0(here::here(), my_folder_post,  my_script)
+```
+
+
+```{r, echo = FALSE, eval = TRUE, results = "hold"}
+knitr::spin_child(path_file)
+```
+
+
+```{r, include = FALSE}
+#| label: tbl-muni
+#| tbl-cap: "Evolución del número de municipios (datos de los Censos)."
+table_ok
+```
+
+
+
+## Evolución del número de municipios (Padrón)
+
+
+Si en lugar de los datos de los Censos, utilizamos los datos del Padrón (1996, 1998-2021) la evolución del número de municipios en España quedaría como:
+
+
+```{r}
+#| echo: false
+#| label: fig-nn-muni-padron
+#| fig-cap: "Evolución del número de municipios (datos del Padrón) \n Juro que mejoraré el gráfico!!!"
+name_of_plot <- "plot_nn_muni_padron.png"
+rutita <- paste0("./imagenes/", name_of_plot)
+knitr::include_graphics(rutita)
+```
+
+El @fig-nn-muni-padron muestra que a partir de 1996, el número de municipios ha aumentado de forma muy suave pero continuada, hasta llegar a los 8.131 municipios en 2021.
+
+
+## Curiosidades
+
+En @fig-nn-muni-censo y @fig-nn-muni-padron se muestran datos sobre la evolución del número de municipios, y hay 2 años (2002 y 2011) en que tenemos cifras para el número de municipios procedentes de 2 fuentes: Censos y padrón. ¿Coincidirán? No . Ya diré porqué. Es "logico", bueno, puede pasar.
+
+
+
+
+
+```{r, include = FALSE}
+my_folder_post <- "/posts/2022-07-13_censos-historicos_02/"
+my_script <- "02_script_crear-tabla-01.R" 
+path_file <- paste0(here::here(), my_folder_post ,  my_script)
+source(path_file, local = knitr::knit_global())
+#sys.source(path_file, envir = knitr::knit_global())
+table_ok
 ```
 
 ## Biblio

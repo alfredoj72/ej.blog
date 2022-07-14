@@ -117,8 +117,8 @@ name_of_plot <- "plot_nn_muni_censo.png"
 path_file <- rstudioapi::getSourceEditorContext()$path %>% 
   stringr::str_remove(., "/[^/]+$") %>% paste0(., "/imagenes/", name_of_plot)
 
-ggsave(p, filename = path_file,
-       device = "png", width = 32, height = 20, units = "cm")
+# ggsave(p, filename = path_file,
+#        device = "png", width = 32, height = 20, units = "cm")
 
 
 
@@ -152,7 +152,7 @@ p <- ggplot() +
   geom_line(data = df_p, aes(x = year, y = nn), size = 1.5) +
   geom_label(data = df_p, aes(x = year, y = nn, label = nn)) +
   labs(title = "Evolución del número de municipios en España ",
-       subtitle = "(Censos de población del INE)",
+       subtitle = "(Datos de población del Padrón, INE)",
        x = "",
        y = "",
        caption = "Datos del INE. Visualización: @pjpv4444") +
@@ -173,8 +173,8 @@ name_of_plot <- "plot_nn_muni_padron.png"
 path_file <- rstudioapi::getSourceEditorContext()$path %>% 
   stringr::str_remove(., "/[^/]+$") %>% paste0(., "/imagenes/", name_of_plot)
 
-ggsave(p, filename = path_file,
-       device = "png", width = 32, height = 20, units = "cm")
+# ggsave(p, filename = path_file,
+#        device = "png", width = 32, height = 20, units = "cm")
 
 
 
