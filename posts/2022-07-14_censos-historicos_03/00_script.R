@@ -1,8 +1,7 @@
-#- Post censos históricos
-
-#- Objetivo: ver que capitales de provincia estuvieron en algún momento entre las 10 más pobladas
-#- Datos: Análisis de CENSOS HISTÓRICOS (INE)
-#- https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176998&menu=resultados&idp=1254735572981
+# Post censos históricos
+# Objetivo: ver que capitales de provincia estuvieron en algún momento entre las 10 más pobladas
+# Datos: Análisis de CENSOS HISTÓRICOS (INE)
+# https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176998&menu=resultados&idp=1254735572981
 
 
 library(tidyverse)
@@ -78,13 +77,14 @@ df <- df %>%
 zz <- df %>% filter(ine_muni.n.h == "Teruel")
 
 
-#- veamos q capitales de prov. han estado alguna vez entre las 10 más pobladas
+#- veamos q municipios han estado alguna vez entre las 20 más pobladas
+qq_num <- 20
 zz <- df %>%
-  filter(rank_1 <= 10) %>%
+  filter(rank_1 <= qq_num) %>%
   distinct(ine_muni, ine_muni.n.h) %>% pull(ine_muni.n.h) %>% print()  #- 17 ciudades (cuidado con filtrar x nombre)
 
 zz <- df %>%
-  filter(rank_1 <= 10) %>%
+  filter(rank_1 <= qq_num) %>%
   distinct(ine_muni, ine_muni.n.h)  #- 17 ciudades (cuidado con filtrar x nombre)
 print(zz$ine_muni.n.h)
 

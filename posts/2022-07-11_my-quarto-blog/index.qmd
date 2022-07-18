@@ -10,7 +10,7 @@ nocite: |
   @*
 ---
 
-Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog.
+Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog. Post provisional (WORK IN PROGRESS!!)
 
 <br>
 

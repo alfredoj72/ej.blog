@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.16">
+<meta name="generator" content="quarto-1.0.28">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -164,7 +164,7 @@ gtag('config', 'G-ED7L025LCP', { 'anonymize_ip': true});
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="datos INE,Censos históricos,población,municipios" data-listing-date-sort="1657749600000" data-listing-file-modified-sort="1657793927848" data-listing-reading-time-sort="0.43">
+<div class="quarto-post image-right" data-index="0" data-categories="datos INE,Censos históricos,población,municipios" data-listing-date-sort="1657749600000" data-listing-file-modified-sort="1658150883520" data-listing-reading-time-sort="1.415">
 <div class="thumbnail">
 <p><a href="./posts/2022-07-14_censos-historicos_03/index.html"> <img src="./posts/2022-07-14_censos-historicos_03/imagenes/thumbnail.jpg" class="thumnail-image"> </a></p>
 </div>
@@ -193,7 +193,7 @@ municipios
 </div>
 <a href="./posts/2022-07-14_censos-historicos_03/index.html">
 <div class="listing-description">
-Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad.
+Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad. (Post provisional!!!) Work in progress!!!
 </div>
 </a>
 </div>
@@ -208,7 +208,7 @@ Pedro J. Pérez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="datos INE,Censos históricos,municipios" data-listing-date-sort="1657663200000" data-listing-file-modified-sort="1657793525127" data-listing-reading-time-sort="5.255">
+<div class="quarto-post image-right" data-index="1" data-categories="datos INE,Censos históricos,municipios" data-listing-date-sort="1657663200000" data-listing-file-modified-sort="1658152608675" data-listing-reading-time-sort="5.26">
 <div class="thumbnail">
 <p><a href="./posts/2022-07-13_censos-historicos_02/index.html"> <img src="./posts/2022-07-13_censos-historicos_02/imagenes/thumbnail.png" class="thumnail-image"> </a></p>
 </div>
@@ -249,7 +249,7 @@ Pedro J. Pérez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="datos INE,Censos históricos,población,municipios" data-listing-date-sort="1657576800000" data-listing-file-modified-sort="1657783727448" data-listing-reading-time-sort="9.47">
+<div class="quarto-post image-right" data-index="2" data-categories="datos INE,Censos históricos,población,municipios" data-listing-date-sort="1657576800000" data-listing-file-modified-sort="1657783727000" data-listing-reading-time-sort="9.47">
 <div class="thumbnail">
 <p><a href="./posts/2022-07-12_censos-historicos_01/index.html"> <img src="./posts/2022-07-12_censos-historicos_01/imagenes/thumbnail.png" class="thumnail-image"> </a></p>
 </div>
@@ -293,7 +293,7 @@ Pedro J. Pérez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="quarto" data-listing-date-sort="1657490400000" data-listing-file-modified-sort="1657787381056" data-listing-reading-time-sort="1.505">
+<div class="quarto-post image-right" data-index="3" data-categories="quarto" data-listing-date-sort="1657490400000" data-listing-file-modified-sort="1658150430239" data-listing-reading-time-sort="1.53">
 <div class="thumbnail">
 <p><a href="./posts/2022-07-11_my-quarto-blog/index.html"> <img src="./posts/2022-07-11_my-quarto-blog/imagenes/thumbnail.png" class="thumnail-image"> </a></p>
 </div>
@@ -313,7 +313,7 @@ quarto
 </div>
 <a href="./posts/2022-07-11_my-quarto-blog/index.html">
 <div class="listing-description">
-Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog.
+Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog. Post provisional (WORK IN PROGRESS!!)
 </div>
 </a>
 </div>
@@ -347,7 +347,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   const toggleBodyColorPrimary = () => {
-    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
   }
   toggleBodyColorPrimary();  
   const icon = "";

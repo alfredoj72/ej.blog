@@ -1,5 +1,5 @@
 ---
-title: "Municipios españoles más poblados (1842-2021)"
+title: "Municipios españoles más poblados (1842-2021) "
 date: 2022-07-14
 categories: [datos INE, Censos históricos, población, municipios]
 css: assets/my_css_file.css 
@@ -8,22 +8,53 @@ image: "imagenes/thumbnail.jpg"
 ---
 
 
-Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad.
+Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad. (Post provisional!!!) Work in progress!!!
 
 
 <br>
 
 ## Introducción
 
-Tambien haré:
+También haré posts de:
 
 - importancia histórica de las provincias (en cuanto a población)
 - importancia histórica de las capitales de provincia (en su provincia)
-- ¿Está más concentrada la población ahora que antes? 50% de lapoblación de España
+- ¿Está más concentrada la población ahora que antes? 50% de la población de España
 
 
 Pero antes he de 
 
-- Aprender bien Quarto y escribir elprimer post
+- Aprender bien Quarto y escribir el primer post
 
-- Escribir post sobre sesgo de genero en premios literarios en Spain (quiero ir a Cordoba!!!)
+- Escribir post sobre sesgo de genero en premios literarios en Spain 
+
+
+## Ranking de municipios más poblados
+
+Voy a mostrar en una tabla y un gráfico el ranking de los municipios mas poblados en cada censo. Mostrare solo los municipios que en alguno de los censos haya estado entre los 20 municipios mas poblados. Para que la tabla y los gráficos se vean razonablemente bien voy a mostrar los resultados de solo algunos de los censos y los datos actuales con datos del Padrón de 2021.
+
+### Tabla
+
+
+```{r, include = FALSE}
+my_folder_post <- "/posts/2022-07-14_censos-historicos_03/"
+my_script <- "01_script_tabla_rankings.R" 
+path_file <- paste0(here::here(), my_folder_post,  my_script)
+```
+
+
+```{r, echo = FALSE, eval = TRUE, results = "hold"}
+#| column: page
+knitr::spin_child(path_file)
+```
+
+
+Por hacer un mínimo comentario de los resultados mostrados en la tabla, señalar que Madrid ha estado siempre en el puesto 1 o 2, Hospitalet de LLobregat es el municipio (de los que en algún momento estuvo en el top 20) menos poblado en 1842. Caravaca de la Cruz era el 16º municipio por población en 1842 mientras que en 2021 ocupa el puesto 313.
+
+### Gráfico
+
+Las tablas están muy bien si necesitas sabes los valores exactos de una variable o si quieres ver algun detalle, pero para ver la evolución es mejor un gráfico.
+
+
+
+

@@ -1,10 +1,108 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R & flowers &nbsp; (a quarto blog) &nbsp; //AÚN en PRUEBAS//",
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html",
+    "title": "Evolución del número de municipios en España (1842-2021)",
     "section": "",
-    "text": "datos INE\n\n\nCensos históricos\n\n\npoblación\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 14, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndatos INE\n\n\nCensos históricos\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 13, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndatos INE\n\n\nCensos históricos\n\n\npoblación\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 12, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nquarto\n\n\n\n\n\n\n\n\n\n\n\nJul 11, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\nNo matching items"
+    "text": "Utilizando datos de los censos históricos y del Padrón, se realizan visualizaciones de la evolución del número de municipios españoles en el tiempo, desde el censo de 1842 hasta la actualidad."
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#introducción",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#introducción",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "Introducción",
+    "text": "Introducción\nEn el post anterior describí el proceso para obtener los datos de los censos históricos del INE. Los censos proporcionan datos de población a nivel municipal1, de forma que ahora utilizaré esos datos para analizar como ha evolucionado el número de municipios en España en el tiempo.\n\n\nObjetivo: ver la evolución del número de municipios en España.\nEl municipio en España es una entidad administrativa de nivel local que puede agrupar a una o varias localidades; por ejemplo el municipio de Pancrudo agrupa cuatro localidades2.Los municipios no son entidades fijas, sino que por distintos motivos hay municipios que desaparecen y otros que aparecen. Por ejemplo, Torremolinos existió como municipio hasta el censo de 1920, para desaparecer en el de 1930 por su integración en el municipio de Málaga, para posteriormente, en el censo de 1991, volver a ser municipio tras segregarse de Málaga.\n\n\nEl número de municipios cambia en el tiempo."
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#cuantos-municipios-han-existido-en-españa",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#cuantos-municipios-han-existido-en-españa",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "¿Cuantos municipios han existido en España?",
+    "text": "¿Cuantos municipios han existido en España?\nDebería ser una pregunta fácil de responder pero no lo es; como ejemplo este documento. Hasta donde yo sé, no existe en España un registro del que pueda obtenerse el número de municipios que han existido en el tiempo; así que, trataré de dar una respuesta utilizando los datos de los Censos históricos y del Padrón.\n\n\nNo es una pregunta fácil.\nLo que si puedo decir es que, con datos del Padrón de 2021, actualmente hay en España 8.131 municipios.\n\n\nActualmente hay 8.131 municipios.\nEl INE proporciona datos de 18 censos de población, el primero en 1842 y el último en 2011. En el censo de 1842 hay datos de 11.291 municipios, mientras que en el de 2021, hay 8.116; es decir, una reducción de 3.175 municipios a lo largo de este periodo. Con esta información parece que la respuesta debería ser 11.291, pero no es así, la dinámica de creación y desaparición de municipios es más compleja, hay municipios como Torremolinos, que desaparecen y vuelven a aparecer.\nEn los 18 censos que proporciona el INE podemos encontrar un total de 11.910 códigos municipales únicos, así que parece que han existido en ese periodo el mismo número de municipios. Digo parece porque la respuesta no es tan clara, ya que hay casos como la localidad Gatova, que cambió su código municipal de 12066 a 46092 al incorporarse a la provincia de Valencia, desde la de Castellón, en el censo de 2001. ¿Son municipios diferentes? Bueno, podemos pensar que sí, ya que tienen códigos municipales diferentes.\nAsí que, según mis cuentas y utilizando datos de los Censos3, han existido4 en España 11.910 municipios.\n\n\nCon datos de los Censos, de 1842 a 2011, han existido 11.910 municipios.\nSin embargo, el último censo publicado es de 2011 y estamos en 2022, así que se han podido crear más municipios desde 2011 hasta la actualidad. Efectivamente, si utilizamos los datos del Padrón5, desde 2011 a 2022 se crearon en España 16 municipios que no existían antes, por lo que la respuesta final es: han existido 11.926 municipios en Spain.\n\n\nAñadiendo los datos del Padrón, ese número aumenta hasta los 11.926 municipios.\nComo actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso quiere decir que desde el censo de 1842 se ha reducido el número de municipios en 3.795."
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-censos",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-censos",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "Evolución del número de municipios (Censos)",
+    "text": "Evolución del número de municipios (Censos)\nUtilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en Figure 1 .\n\n\n\n\nGráfico 1: Evolución del número de municipios (datos de los Censos). Juro que mejoraré el gráfico!!!!\n\n\n\n\nEn Figure 1 se aprecia que desde 1842 se ha reducido el número de municipios, principalmente entre el censo de 1842 y el de 1933, y en los censos de 1979 y 1981. De las explicaciones no sé mucho: 1) el censo de 1842 fue, como leí no sé donde, un censo extraño, y 2) A partir de 1970 se hizo un esfuerzo politico por reducir el número de municipios …..\nEl Figure 1 proporciona información, pero la tabla siguiente ?@tbl-muni se amplia un poco esa información, apreciándose que del censo de 1842 al siguiente se redujo el número de municipios en 1933; pero esa reducción, como se aprecia en ?@tbl-nn-muni-censo , es resultado de que desaparecieron 2.199 municipios mientras que aparecieron, o se crearon, 266.\nPara ahondar un poco más en la dinámica de la evolución del número de municipios en el tiempo, en la ?@tbl-muni se muestra más información.\n\n\n\nCodelibrary(tidyverse)\n\ndf <- pjpv.datos.2022::ine_censos_historicos #- censos históricos (1842-2011)\n\n# TABLA GOOD del CENSO: \ntabla_0 <- df %>% drop_na(pob) %>% \n  group_by(year) %>% summarise(nn = n_distinct(ine_muni))\n\ntabla_1 <- df %>% \n  filter(indicador %in% c(\"aparece\", \"desaparece\")) %>% \n  count(year, indicador) %>% \n  pivot_wider(names_from = indicador, values_from = n) %>% \n  mutate(nn_netos = aparece - desaparece) %>% \n  add_case(year = 1842, .before = 1)\n\ntabla_1a <- left_join(tabla_0, tabla_1) %>% \n  mutate(comprobacion = nn_netos) %>% \n  mutate(comprobacion = ifelse(year == \"1842\", first(nn), comprobacion)) %>% \n  mutate(comprobacion = cumsum(comprobacion) - nn)\n\ntabla_censo_ok <- tabla_1a %>% select(-comprobacion)\nnames(tabla_censo_ok) <- c(\"Censo\", \"Nº municipios\", \"desaparecen\", \"aparecen\", \"Incremento\")\ntabla_censo_ok <- tabla_censo_ok %>% select(1, 2, \"Incremento\", everything())\n\ntable_ok <- tabla_censo_ok %>% \n  reactable::reactable(defaultPageSize = 18, theme = reactablefmtr::fivethirtyeight()) \n\ntable_ok"
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-padrón",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-padrón",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "Evolución del número de municipios (Padrón)",
+    "text": "Evolución del número de municipios (Padrón)\nSi en lugar de los datos de los Censos, utilizamos los datos del Padrón (1996, 1998-2021) la evolución del número de municipios en España quedaría como:\n\n\n\n\nGráfico 2: Evolución del número de municipios (datos del Padrón) Juro que mejoraré el gráfico!!!\n\n\n\n\nEl Figure 2 muestra que a partir de 1996, el número de municipios ha aumentado de forma muy suave pero continuada, hasta llegar a los 8.131 municipios en 2021."
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#curiosidades",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#curiosidades",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "Curiosidades",
+    "text": "Curiosidades\nEn Figure 1 y Figure 2 se muestran datos sobre la evolución del número de municipios, y hay 2 años (2001 y 2011) en que tenemos cifras para el número de municipios procedentes de 2 fuentes: Censos y padrón. ¿Coincidirán? No . Ya diré porqué. Es “logico”, bueno, puede pasar."
+  },
+  {
+    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#biblio",
+    "href": "posts/2022-07-13_censos-historicos_02/index.html#biblio",
+    "title": "Evolución del número de municipios en España (1842-2021)",
+    "section": "Biblio",
+    "text": "Biblio\nBiblio:\n\nartículo PAIS: https://elpais.com/elpais/2017/02/02/media/1486066904_389254.html La mitad de municipios puede desaparecer"
+  },
+  {
+    "objectID": "posts/2022-07-11_my-quarto-blog/index.html",
+    "href": "posts/2022-07-11_my-quarto-blog/index.html",
+    "title": "Creación de un blog con Quarto",
+    "section": "",
+    "text": "Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog. Post provisional (WORK IN PROGRESS!!)"
+  },
+  {
+    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#introducción",
+    "href": "posts/2022-07-11_my-quarto-blog/index.html#introducción",
+    "title": "Creación de un blog con Quarto",
+    "section": "Introducción",
+    "text": "Introducción\nLLevo unos días intentando crear un quarto blog. ya tengo experiencia, así que no me está resultando muy complicado, pero mejor si dejo aquí algunas notas.\n\n\nSí, la verdad es que es conveniente apuntarse cosas que luego …"
+  },
+  {
+    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#qué-es-quarto",
+    "href": "posts/2022-07-11_my-quarto-blog/index.html#qué-es-quarto",
+    "title": "Creación de un blog con Quarto",
+    "section": "¿Qué es Quarto?",
+    "text": "¿Qué es Quarto?\nCómo se dice en su página web:\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\n\nEs como una “segunda versión” de Rmarkdown:\n\nQuarto is a multi-language, next generation version of R Markdown from RStudio, with many new features and capabilities. Like R Markdown, Quarto uses Knitr to execute R code, and is therefore able to render most existing Rmd files without modification.\n\nQuarto, no es un paquete de R, es una aplicación independiente, de forma que se puede usar sin R. Puede usarse para correr chunk de R, Phyton, Julia y Observable. Se pueden generar documentos reproducibles con markdown o con jupiter notebooks.\nComo con Rmarkdown, se pueden hacer: reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more."
+  },
+  {
+    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#cómo-hacer-un-blog-con-quarto",
+    "href": "posts/2022-07-11_my-quarto-blog/index.html#cómo-hacer-un-blog-con-quarto",
+    "title": "Creación de un blog con Quarto",
+    "section": "¿Cómo hacer un blog con Quarto?",
+    "text": "¿Cómo hacer un blog con Quarto?\n\nHas de instalar Quarto1\nSi sigues la ruta de menús: File > New Project > New Directory > Quarto Blog se te creará una Rproject con un blog.\nEl Rproject que acabamos de crear tendrá esta estructura de archivos y carpetas:\n\n\n\n\n\n\n\nEstructura del Rproject (blog)\n\n\n\n\n\n\n\n\nCarpeta de posts: cada post en una carpeta\n\n\n\n\n\n\n\n\nCarpeta de un post (Wellcome post)\n\n\n\n\n\nGráfico 1: Estructura de carpetas del Rproject con nuestro blog"
+  },
+  {
+    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#referencias",
+    "href": "posts/2022-07-11_my-quarto-blog/index.html#referencias",
+    "title": "Creación de un blog con Quarto",
+    "section": "Referencias",
+    "text": "Referencias\n(Algunos artículos sobre Quarto)\n\n\n“Bea Milz - Creating a Blog with Quarto in 10 Steps.” n.d. Accessed July 14, 2022. https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/.\n\n\nNavarro, Danielle. 2022. “Notes from a Data Witch - Porting a Distill Blog to Quarto.” https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/.\n\n\n“Quarto.” n.d. Accessed July 13, 2022. https://quarto.org/.\n\n\n“Quarto - Creating a Blog.” n.d. Accessed July 14, 2022. https://quarto.org/docs/websites/website-blog.html.\n\n\n“We Don’t Talk about Quarto  Alison Hill, PhD.” n.d. Accessed July 14, 2022. https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/."
+  },
+  {
+    "objectID": "posts/2022-07-14_censos-historicos_03/index.html",
+    "href": "posts/2022-07-14_censos-historicos_03/index.html",
+    "title": "Municipios españoles más poblados (1842-2021)",
+    "section": "",
+    "text": "Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad. (Post provisional!!!) Work in progress!!!"
+  },
+  {
+    "objectID": "posts/2022-07-14_censos-historicos_03/index.html#introducción",
+    "href": "posts/2022-07-14_censos-historicos_03/index.html#introducción",
+    "title": "Municipios españoles más poblados (1842-2021)",
+    "section": "Introducción",
+    "text": "Introducción\nTambién haré posts de:\n\nimportancia histórica de las provincias (en cuanto a población)\nimportancia histórica de las capitales de provincia (en su provincia)\n¿Está más concentrada la población ahora que antes? 50% de la población de España\n\nPero antes he de\n\nAprender bien Quarto y escribir el primer post\nEscribir post sobre sesgo de genero en premios literarios en Spain"
+  },
+  {
+    "objectID": "posts/2022-07-14_censos-historicos_03/index.html#ranking-de-municipios-más-poblados",
+    "href": "posts/2022-07-14_censos-historicos_03/index.html#ranking-de-municipios-más-poblados",
+    "title": "Municipios españoles más poblados (1842-2021)",
+    "section": "Ranking de municipios más poblados",
+    "text": "Ranking de municipios más poblados\nVoy a mostrar en una tabla y un gráfico el ranking de los municipios mas poblados en cada censo. Mostrare solo los municipios que en alguno de los censos haya estado entre los 20 municipios mas poblados. Para que la tabla y los gráficos se vean razonablemente bien voy a mostrar los resultados de solo algunos de los censos y los datos actuales con datos del Padrón de 2021.\nTabla\n\n\n\nCode# Post censos históricos\n# Objetivo: ver que capitales de provincia estuvieron en algún momento entre las 10 más pobladas\nlibrary(tidyverse)\n\n# cargo censos históricos \ndf <- pjpv.datos.2022::ine_censos_historicos\n\n# fusiono con datos de padrón 2021 \ndf_padron <- pjpv.curso.R.2022::ine_pob_mun_1996_2021 %>% \n  filter(year == 2021) %>% filter(poblacion == \"Total\") %>% \n  select(- poblacion, - ine_muni.n.orig) %>% \n  rename(pob = values) %>% \n  select(ine_muni, year, pob)\n\n# quito municipios de 2021 que no estan en df (1842-2011)\ndf_padron <- df_padron %>% filter(ine_muni %in% unique(df$ine_muni))\n\n# pongo a df las v. q van a hacer falta (ine_prov etc ....\nzz <- df %>% select(ine_muni, ine_muni.n.h, ine_prov, ine_prov.n, ine_ccaa, ine_ccaa.n, capital_prov, capital_ccaa, year) %>% filter(year == 2011) %>% select(-year)\ndf_padron <- left_join(df_padron, zz)\n\n\n# fusiono censos y padrón OK \ndf <- full_join(df, df_padron)\nzz <- df %>% filter(ine_muni == \"28079\")\nzz <- df %>% filter(ine_muni.n.h == \"Pancrudo\")\n\n\n# calculo rankings (para cada censo)\ndf <- df %>%\n  #select(year, ine_muni, ine_muni.n, pob, ine_prov)  %>%\n  group_by(year) %>%\n  arrange(desc(pob), desc(lag(pob)) )  %>%\n  mutate(rank_1 = 1:n(), .after = pob) %>%\n  mutate(rank_2 = dplyr::dense_rank(desc(pob))) %>%\n  ungroup() %>% \n  arrange(year)\n\n# calculo tb variaciones en el ranking\ndf <- df %>%\n  group_by(ine_muni) %>%\n  arrange(year) %>%\n  mutate(rank_dif_1 = lag(rank_1) - rank_1, .after = rank_1) %>% \n  mutate(rank_max_dif_1 = \n           max(rank_1, na.rm = TRUE) - min(rank_1, na.rm = TRUE), \n         .after = rank_dif_1) %>% ungroup()\n  \nzz <- df %>% filter(ine_muni.n.h == \"Teruel\")\n\n\n\n# calculo de crecimientos etc....\ndf <- df %>%\n  group_by(ine_muni) %>%\n  arrange(year) %>%\n  dplyr::mutate(pob_incre = pob - lag(pob)) %>%\n  dplyr::mutate(pob_percent = pob_incre / lag(pob) * 100) %>%\n  dplyr::mutate(qq_years = year - lag(year)) %>%\n  dplyr::mutate(pob_percent_acu = cumsum(coalesce(pob_incre,0)/first(pob)*100)) %>%\n  dplyr::mutate(qq_years_acu = cumsum(ifelse(is.na(qq_years), 0, qq_years))) %>%\n  dplyr::mutate(crec_percent_medio = pob_percent/qq_years) %>% \n  dplyr::mutate(crec_percent_medio_acu = pob_percent_acu/qq_years_acu) %>% \n  relocate(c(ine_prov, ine_prov.n), .after = last_col()) %>% ungroup\n\nzz <- df %>% filter(ine_muni.n.h == \"Teruel\")\n\n\n# veamos q capitales de prov. han estado alguna vez entre las 10 más pobladas\nqq_mas_pobladas <- 20\nzz <- df %>%\n  filter(rank_1 <= qq_mas_pobladas) %>%\n  distinct(ine_muni, ine_muni.n.h) %>% pull(ine_muni.n.h) #%>% print()  # 17 ciudades (cuidado con filtrar x nombre)\n\nzz <- df %>%\n  filter(rank_1 <= qq_mas_pobladas) %>%\n  distinct(ine_muni, ine_muni.n.h)  # xx ciudades (cuidado con filtrar x nombre)\n#print(zz$ine_muni.n.h)\n\n# filtremos, quedémonos con los datos de esas xx ciudades\ndf_table <- df %>% filter(ine_muni %in% zz$ine_muni)   # ok\n\n\n# Tablas ----------------------------------------------------------------------\n# nos quedamos con las 3 v. q queremos mostrar\ndf_table <- df_table %>%\n  select(ine_muni.n.h, year, rank_1)\n\n# hay q pasar la df_table a formato ancho (2 posibilidades)\ndf_t1 <- df_table %>% tidyr::pivot_wider(names_from = year, values_from = rank_1)\ndf_t2 <- df_table %>% tidyr::pivot_wider(names_from = ine_muni.n.h, values_from = rank_1)\n\n# hay muchos pkgs para tablas\n# DT::datatable(df_t1)\n# gt::gt(df_t2)\n\n\n# gt: https://gt.rstudio.com/\n# gallery: https://community.rstudio.com/c/table-gallery/64\n# ejemplo: https://jelloque.github.io/trabajo_BigData/#5_LOS_CICLISTAS\n# otro: https://twitter.com/irg_bio/status/1486291227255451648?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1486291227255451648&ref_url=file%3A%2F%2F%2Fhome%2Fpjpv%2FEscritorio%2Fmys_COSAS%2Fmy_learn_RR%2Flearn_ggplot2%2Fejemplos_ggplot2_2022.html\n\n# gt::gt(df_t2) %>%\n#   gt::tab_header(title = \"Capitales más pobladas\",\n#     subtitle = glue::glue(\"{min(df$year)} to {max(df$year)}\"))\n\n# quito algunos censos para que las tablas se vean mejor\nzz <- df %>% distinct(year)\n\ndf_ok <- df_t1 %>% rename(municipio = ine_muni.n.h) %>% \n  select(municipio, `1842`, `1857`, `1877`, `1897`, `1910`, `1930`, `1950`, `1970`, `1991`, `2021`)\n\n# table_ok <- df_ok %>% \n#   reactable::reactable(defaultPageSize = 36, compact = TRUE,\n#                        filterable  = TRUE, \n#                        theme = reactablefmtr::fivethirtyeight(cell_padding = 1, font_size = 11, header_font_size = 13)) \n# \n# table_ok\n# \n\n# mejoramos las tablas\n# DT: https://rstudio.github.io/DT/\nDT::datatable(df_ok, filter = 'top', extensions = \"Scroller\",\n              class = 'cell-border stripe',\n              options = list(autoWidth = TRUE,deferRender = TRUE,\n                             scroller = TRUE, scrollY = 750 ))\n\n\n\n\n\n\n\n\nPor hacer un mínimo comentario de los resultados mostrados en la tabla, señalar que Madrid ha estado siempre en el puesto 1 o 2, Hospitalet de LLobregat es el municipio (de los que en algún momento estuvo en el top 20) menos poblado en 1842. Caravaca de la Cruz era el 16º municipio por población en 1842 mientras que en 2021 ocupa el puesto 313.\nGráfico\nLas tablas están muy bien si necesitas sabes los valores exactos de una variable o si quieres ver algun detalle, pero para ver la evolución es mejor un gráfico."
   },
   {
     "objectID": "posts/2022-07-12_censos-historicos_01/index.html",
@@ -56,102 +154,11 @@
     "text": "Referencias\n(Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos)\n\n\nAlbet i Mas, Abel. 1970. “El Mapa Municipal En España: Estructura, Evolución y Problemáticas.” Geopolítica(s). Revista de Estudios Sobre Espacio y Poder 10 (1): 11–40. https://doi.org/10.5209/GEOP.63834.\n\n\nPaís, Ediciones El. 2021. “Así Ha Cambiado España Desde Los Primeros Censos Del Siglo XVIII.” Verne. https://verne.elpais.com/verne/2021/03/01/articulo/1614584363_382946.html.\n\n\nPrieto, Gonzalo. 2016. “La Evolución de Madrid a Lo Largo de La Historia.” Geografía Infinita. https://www.geografiainfinita.com/2016/01/historia-del-plano-de-madrid/."
   },
   {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html",
-    "title": "Evolución del número de municipios en España (1842-2021)",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R & flowers &nbsp; (a quarto blog) &nbsp; //AÚN en PRUEBAS//",
     "section": "",
-    "text": "Utilizando datos de los censos históricos y del Padrón, se realizan visualizaciones de la evolución del número de municipios españoles en el tiempo, desde el censo de 1842 hasta la actualidad."
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#introducción",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#introducción",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "Introducción",
-    "text": "Introducción\nEn el post anterior describí el proceso para obtener los datos de los censos históricos del INE. Los censos proporcionan datos de población a nivel municipal1, de forma que ahora utilizaré esos datos para analizar como ha evolucionado el número de municipios en España en el tiempo.\n\n\nObjetivo: ver la evolución del número de municipios en España.\nEl municipio en España es una entidad administrativa de nivel local que puede agrupar a una o varias localidades; por ejemplo el municipio de Pancrudo agrupa cuatro localidades2.Los municipios no son entidades fijas, sino que por distintos motivos hay municipios que desaparecen y otros que aparecen. Por ejemplo, Torremolinos existió como municipio hasta el censo de 1920, para desaparecer en el de 1930 por su integración en el municipio de Málaga, para posteriormente, en el censo de 1991, volver a ser municipio tras segregarse de Málaga.\n\n\nEl número de municipios cambia en el tiempo."
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#cuantos-municipios-han-existido-en-españa",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#cuantos-municipios-han-existido-en-españa",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "¿Cuantos municipios han existido en España?",
-    "text": "¿Cuantos municipios han existido en España?\nDebería ser una pregunta fácil de responder pero no lo es; como ejemplo este documento. Hasta donde yo sé, no existe en España un registro del que pueda obtenerse el número de municipios que han existido en el tiempo; así que, trataré de dar una respuesta utilizando los datos de los Censos históricos y del Padrón.\n\n\nNo es una pregunta fácil.\nLo que si puedo decir es que, con datos del Padrón de 2021, actualmente hay en España 8.131 municipios.\n\n\nActualmente hay 8.131 municipios.\nEl INE proporciona datos de 18 censos de población, el primero en 1842 y el último en 2011. En el censo de 1842 hay datos de 11.291 municipios, mientras que en el de 2021, hay 8.116; es decir, una reducción de 3.175 municipios a lo largo de este periodo. Con esta información parece que la respuesta debería ser 11.291, pero no es así, la dinámica de creación y desaparición de municipios es más compleja, hay municipios como Torremolinos, que desaparecen y vuelven a aparecer.\nEn los 18 censos que proporciona el INE podemos encontrar un total de 11.910 códigos municipales únicos, así que parece que han existido en ese periodo el mismo número de municipios. Digo parece porque la respuesta no es tan clara, ya que hay casos como la localidad Gatova, que cambió su código municipal de 12066 a 46092 al incorporarse a la provincia de Valencia, desde la de Castellón, en el censo de 2001. ¿Son municipios diferentes? Bueno, podemos pensar que sí, ya que tienen códigos municipales diferentes.\nAsí que, según mis cuentas y utilizando datos de los Censos3, han existido4 en España 11.910 municipios.\n\n\nCon datos de los Censos, de 1842 a 2011, han existido 11.910 municipios.\nSin embargo, el último censo publicado es de 2011 y estamos en 2022, así que se han podido crear más municipios desde 2011 hasta la actualidad. Efectivamente, si utilizamos los datos del Padrón5, desde 2011 a 2022 se crearon en España 16 municipios que no existían antes, por lo que la respuesta final es: han existido 11.926 municipios en Spain.\n\n\nAñadiendo los datos del Padrón, ese número aumenta hasta los 11.926 municipios.\nComo actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso quiere decir que desde el censo de 1842 se ha reducido el número de municipios en 3.795."
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-censos",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-censos",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "Evolución del número de municipios (Censos)",
-    "text": "Evolución del número de municipios (Censos)\nUtilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en Figure 1.\n\n\n\n\nFigure 1: Evolución del número de municipios (datos de los Censos). Juro que mejoraré el gráfico!!!!\n\n\n\n\nEn Figure 1 se aprecia que desde 1842 se ha reducido el número de municipios, principalmente entre el censo de 1842 y el de 1933, y en los censos de 1979 y 1981. De las explicaciones no sé mucho: 1) el censo de 1842 fue, como leí no sé donde, un censo extraño, y 2) A partir de 1970 se hizo un esfuerzo politico por reducir el número de municipios …..\nEl Figure 1 propòrciona información, pero la tabla siguiente ?@tbl-muni se amplia un poco esa información, apreciandosé que del censo de 1842 al siguiente se redujo el número de municipios en 1933; pero esa reducción, como se aprecia en ?@tbl-nn-muni-censo , es resultado de que desaparecieron 2.199 municipios mientras que aparecieron, o se crearon, 266.\nPara ahondar un poco más en la dinámica de la evolución del número de municipios en el tiempo, en la ?@tbl-muni se muestra más información.\n\n\n\nCodelibrary(tidyverse)\n\ndf <- pjpv.datos.2022::ine_censos_historicos #- censos históricos (1842-2011)\n\n# TABLA GOOD del CENSO: \ntabla_0 <- df %>% drop_na(pob) %>% \n  group_by(year) %>% summarise(nn = n_distinct(ine_muni))\n\ntabla_1 <- df %>% \n  filter(indicador %in% c(\"aparece\", \"desaparece\")) %>% \n  count(year, indicador) %>% \n  pivot_wider(names_from = indicador, values_from = n) %>% \n  mutate(nn_netos = aparece - desaparece) %>% \n  add_case(year = 1842, .before = 1)\n\ntabla_1a <- left_join(tabla_0, tabla_1) %>% \n  mutate(comprobacion = nn_netos) %>% \n  mutate(comprobacion = ifelse(year == \"1842\", first(nn), comprobacion)) %>% \n  mutate(comprobacion = cumsum(comprobacion) - nn)\n\ntabla_censo_ok <- tabla_1a %>% select(-comprobacion)\nnames(tabla_censo_ok) <- c(\"Censo\", \"Nº municipios\", \"desaparecen\", \"aparecen\", \"Incremento\")\ntabla_censo_ok <- tabla_censo_ok %>% select(1, 2, \"Incremento\", everything())\n\ntable_ok <- tabla_censo_ok %>% \n  reactable::reactable(defaultPageSize = 18, theme = reactablefmtr::fivethirtyeight()) \n\ntable_ok"
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-padrón",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#evolución-del-número-de-municipios-padrón",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "Evolución del número de municipios (Padrón)",
-    "text": "Evolución del número de municipios (Padrón)\nSi en lugar de los datos de los Censos, utilizamos los datos del Padrón (1996, 1998-2021) la evolución del número de municipios en España quedaría como:\n\n\n\n\nFigure 2: Evolución del número de municipios (datos del Padrón) Juro que mejoraré el gráfico!!!\n\n\n\n\nEl Figure 2 muestra que a partir de 1996, el número de municipios ha aumentado de forma muy suave pero continuada, hasta llegar a los 8.131 municipios en 2021."
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#curiosidades",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#curiosidades",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "Curiosidades",
-    "text": "Curiosidades\nEn Figure 1 y Figure 2 se muestran datos sobre la evolución del número de municipios, y hay 2 años (2001 y 2011) en que tenemos cifras para el número de municipios procedentes de 2 fuentes: Censos y padrón. ¿Coincidirán? No . Ya diré porqué. Es “logico”, bueno, puede pasar."
-  },
-  {
-    "objectID": "posts/2022-07-13_censos-historicos_02/index.html#biblio",
-    "href": "posts/2022-07-13_censos-historicos_02/index.html#biblio",
-    "title": "Evolución del número de municipios en España (1842-2021)",
-    "section": "Biblio",
-    "text": "Biblio\nBiblio:\n\nartículo PAIS: https://elpais.com/elpais/2017/02/02/media/1486066904_389254.html La mitad de municipios puede desaparecer"
-  },
-  {
-    "objectID": "posts/2022-07-11_my-quarto-blog/index.html",
-    "href": "posts/2022-07-11_my-quarto-blog/index.html",
-    "title": "Creación de un blog con Quarto",
-    "section": "",
-    "text": "Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog."
-  },
-  {
-    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#introducción",
-    "href": "posts/2022-07-11_my-quarto-blog/index.html#introducción",
-    "title": "Creación de un blog con Quarto",
-    "section": "Introducción",
-    "text": "Introducción\nLLevo unos días intentando crear un quarto blog. ya tengo experiencia, así que no me está resultando muy complicado, pero mejor si dejo aquí algunas notas.\n\n\nSí, la verdad es que es conveniente apuntarse cosas que luego …"
-  },
-  {
-    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#qué-es-quarto",
-    "href": "posts/2022-07-11_my-quarto-blog/index.html#qué-es-quarto",
-    "title": "Creación de un blog con Quarto",
-    "section": "¿Qué es Quarto?",
-    "text": "¿Qué es Quarto?\nCómo se dice en su página web:\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\n\nEs como una “segunda versión” de Rmarkdown:\n\nQuarto is a multi-language, next generation version of R Markdown from RStudio, with many new features and capabilities. Like R Markdown, Quarto uses Knitr to execute R code, and is therefore able to render most existing Rmd files without modification.\n\nQuarto, no es un paquete de R, es una aplicación independiente, de forma que se puede usar sin R. Puede usarse para correr chunk de R, Phyton, Julia y Observable. Se pueden generar documentos reproducibles con markdown o con jupiter notebooks.\nComo con Rmarkdown, se pueden hacer: reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more."
-  },
-  {
-    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#cómo-hacer-un-blog-con-quarto",
-    "href": "posts/2022-07-11_my-quarto-blog/index.html#cómo-hacer-un-blog-con-quarto",
-    "title": "Creación de un blog con Quarto",
-    "section": "¿Cómo hacer un blog con Quarto?",
-    "text": "¿Cómo hacer un blog con Quarto?\n\nHas de instalar Quarto1\nSi sigues la ruta de menús: File > New Project > New Directory > Quarto Blog se te creará una Rproject con un blog.\nEl Rproject que acabamos de crear tendrá esta estructura de archivos y carpetas:\n\n\n\n\n\n\n\nEstructura del Rproject (blog)\n\n\n\n\n\n\n\n\nCarpeta de posts: cada post en una carpeta\n\n\n\n\n\n\n\n\nCarpeta de un post (Wellcome post)\n\n\n\n\n\nFigure 1: Estructura de carpetas del Rproject con nuestro blog"
-  },
-  {
-    "objectID": "posts/2022-07-11_my-quarto-blog/index.html#referencias",
-    "href": "posts/2022-07-11_my-quarto-blog/index.html#referencias",
-    "title": "Creación de un blog con Quarto",
-    "section": "Referencias",
-    "text": "Referencias\n(Algunos artículos sobre Quarto)\n\n\n“Bea Milz - Creating a Blog with Quarto in 10 Steps.” n.d. Accessed July 14, 2022. https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/.\n\n\nNavarro, Danielle. 2022. “Notes from a Data Witch - Porting a Distill Blog to Quarto.” https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/.\n\n\n“Quarto.” n.d. Accessed July 13, 2022. https://quarto.org/.\n\n\n“Quarto - Creating a Blog.” n.d. Accessed July 14, 2022. https://quarto.org/docs/websites/website-blog.html.\n\n\n“We Don’t Talk about Quarto  Alison Hill, PhD.” n.d. Accessed July 14, 2022. https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/."
-  },
-  {
-    "objectID": "posts/2022-07-14_censos-historicos_03/index.html",
-    "href": "posts/2022-07-14_censos-historicos_03/index.html",
-    "title": "Municipios españoles más poblados (1842-2021)",
-    "section": "",
-    "text": "Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad."
-  },
-  {
-    "objectID": "posts/2022-07-14_censos-historicos_03/index.html#introducción",
-    "href": "posts/2022-07-14_censos-historicos_03/index.html#introducción",
-    "title": "Municipios españoles más poblados (1842-2021)",
-    "section": "Introducción",
-    "text": "Introducción\nTambien haré:\n\nimportancia histórica de las provincias (en cuanto a población)\nimportancia histórica de las capitales de provincia (en su provincia)\n¿Está más concentrada la población ahora que antes? 50% de lapoblación de España\n\nPero antes he de\n\nAprender bien Quarto y escribir elprimer post\nEscribir post sobre sesgo de genero en premios literarios en Spain (quiero ir a Cordoba!!!)"
+    "text": "datos INE\n\n\nCensos históricos\n\n\npoblación\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 14, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndatos INE\n\n\nCensos históricos\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 13, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndatos INE\n\n\nCensos históricos\n\n\npoblación\n\n\nmunicipios\n\n\n\n\n\n\n\n\n\n\n\nJul 12, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nquarto\n\n\n\n\n\n\n\n\n\n\n\nJul 11, 2022\n\n\nPedro J. Pérez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

@@ -5,6 +5,9 @@ categories: [datos INE, Censos históricos, municipios]
 #css: assets/my_css_file.css 
 draft: false
 image: "imagenes/thumbnail.png"
+crossref:
+  fig-title: Gráfico     # (default is "Figure")
+  tbl-title: Tabla    # (default is "Table")
 ---
 
 Utilizando datos de los censos históricos y del Padrón, se realizan visualizaciones de la evolución del número de municipios españoles en el tiempo, desde el censo de 1842 hasta la actualidad.
@@ -13,7 +16,7 @@ Utilizando datos de los censos históricos y del Padrón, se realizan visualizac
 
 ## Introducción
 
-En el [post anterior]() describí el proceso para obtener los datos de los censos históricos del INE. Los censos proporcionan datos de población a nivel municipal[^1], de forma que ahora utilizaré esos datos para analizar como ha evolucionado el **número de municipios en España** en el tiempo.
+En el [post anterior](/posts/2022-07-12_censos-historicos_01/index.html) describí el proceso para obtener los datos de los censos históricos del INE. Los censos proporcionan datos de población a nivel municipal[^1], de forma que ahora utilizaré esos datos para analizar como ha evolucionado el **número de municipios en España** en el tiempo.
 
 [^1]: Para obtener datos de población a nivel de localidad o núcleos de población hay que acudir al [Nomenclátor del INE](https://www.ine.es/nomen2/index.do).
 
@@ -69,7 +72,7 @@ Como actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso q
 
 ## Evolución del número de municipios (Censos)
 
-Utilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en @fig-nn-muni-censo.
+Utilizando los datos de los 18 censos de población disponibles en la web del INE, la evolución del número de municipios puede verse en @fig-nn-muni-censo .
 
 ```{r}
 #| echo: false
@@ -84,7 +87,7 @@ knitr::include_graphics(rutita)
 
 En  @fig-nn-muni-censo se aprecia que desde 1842 se ha reducido el número de municipios, principalmente entre el censo de 1842 y el de 1933, y en los censos de 1979 y 1981. De las explicaciones no sé mucho: 1) el censo de 1842 fue, como leí no sé donde, un censo extraño, y 2) A partir de 1970 se hizo un esfuerzo politico por reducir el número de municipios .....
 
-El @fig-nn-muni-censo propòrciona información, pero la tabla siguiente  @tbl-muni se amplia un poco esa información, apreciandosé que del censo de 1842 al siguiente se redujo el número de municipios en 1933; pero esa reducción, como se aprecia en @tbl-nn-muni-censo  , es resultado de que desaparecieron 2.199 municipios mientras que aparecieron, o se crearon, 266.
+El @fig-nn-muni-censo proporciona información, pero la tabla siguiente  @tbl-muni se amplia un poco esa información, apreciándose que del censo de 1842 al siguiente se redujo el número de municipios en 1933; pero esa reducción, como se aprecia en @tbl-nn-muni-censo  , es resultado de que desaparecieron 2.199 municipios mientras que aparecieron, o se crearon, 266.
 
 
 Para ahondar un poco más en la dinámica de la evolución del número de municipios en el tiempo, en la @tbl-muni se muestra más información.

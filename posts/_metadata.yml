@@ -42,3 +42,8 @@ code-fold: true
 code-tools: true
 code-link: true
 
+#- https://quarto.org/docs/authoring/cross-references.html#options
+crossref:
+  fig-title: Gráfico     # (default is "Figure")
+  tbl-title: Tabla    # (default is "Table")
+  #title-delim: —     # (default is ":")

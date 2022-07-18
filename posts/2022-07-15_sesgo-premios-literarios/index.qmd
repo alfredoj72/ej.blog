@@ -1,0 +1,40 @@
+---
+title: "Sesgo de genero en los premios literarios españoles"
+date: 2022-05-16
+categories: [sesgo genero, literatura, wikidata]
+css: assets/my_css_file.css 
+draft: true
+image: "imagenes/thumbnail.png"
+---
+
+Se presenta información sobre el sesgo de genero en los premios literarios españoles.
+
+<br>
+
+## Introducción
+
+Quiero analizar con datos si hay sesgo de genero en los premios literarios españoles. La verdad es que estoy seguro de que sí que hay, la cuestión es cuanto y si está descendiendo. Que poco sé de sesgo de genero, pero entiendo lo que cuenta Natalie Kon-yu [aquí](https://lithub.com/on-sexism-in-literary-prize-culture/) y entiendo esto:
+
+> Men’s writing is just writing and everything else is a sub-classification  -- by [Natalie Kon-yu](https://lithub.com/author/natalie-kon-yu/)
+
+Empecé el análisis el jueves 14 de julio de 2022
+Lo primero es seleccionar un conjunto de premios literarios. Tras un poco de mirar y reflexionar me decidí a empezar el análisis con los siguientes premios: 
+
+- [Premio Nadal](https://es.wikipedia.org/wiki/Premio_Nadal#ganadores_y_finalistas)
+
+- [Premio Planeta](https://es.wikipedia.org/wiki/Premio_Planeta)  solo 2021
+
+- [Premio Princesa de Asturias de las Letras](https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_las_Letras)
+
+::: column-margin
+No sé de cuestiones de genero, pero estas cuestiones **existen**
+:::
+
+<br><br>
+
+## Referencias
+
+Algunos artículos que hablan de la evolución histórica de la población y/o de los censos históricos:
+
+::: {#refs}
+:::

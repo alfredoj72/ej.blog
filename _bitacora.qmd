@@ -98,6 +98,8 @@ Imagenes con `knitr`
 
 ## Z. TRUCOS
 
+- En el `[post anterior](/posts/2022-07-12_censos-historicos_01/index.html) ` se hace con `(/posts/2022-07-12_censos-historicos_01/index.html)`
+
 -   Para que a la lista de post no se incorporen todos los ficheros `*.qmd` si no solo algunos. Lo explica Mine [aquí](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){target="_blank"}
 
 -   Para que al abrir un link externo se abra en otra pestaña, has de poner al final del link `{target="_blank"}` Por ejemplo: `[Wikidata](https://wikidata.com){target="_blank"}`
@@ -122,6 +124,10 @@ The .column-margin class is handy for margin asides, but there are several other
 
 - [Actualizar Quiarto con homebrew](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/13-homebrew/)
 
+
+
+- [Usar Font Awesome icons](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/18-font-awesome/)  #quartotip 18: Including Font Awesome icons in Quarto documents is now easy peasy lemon squeezy 🍋
+
 <br>
 
 ------------------------------------------------------------------------
@@ -134,6 +140,10 @@ The .column-margin class is handy for margin asides, but there are several other
 
 -   Arreglar el texto de `about.qmd`
 
+- Lo de sessio_info en los posts: <https://themockup.blog/posts/2022-04-18-session-info/>
+
+- [Academicons extension](https://github.com/schochastics/academicons). Un post: <http://blog.schochastics.net/post/academicons-my-first-quarto-extension/>
+
 <br>
 
 ------------------------------------------------------------------------
@@ -144,17 +154,23 @@ The .column-margin class is handy for margin asides, but there are several other
 
 ### Oficial
 
+- [Gallery de Quarto, x MIne](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/19-gallery/)
+
 - [Quarto](https://quarto.org/){target="_blank"}
 
 - [Quarto: crear un blog](https://quarto.org/docs/websites/website-blog.html){target="_blank"}
 
 - Para pedir ayuda: [Lo explica Mine](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/15-help/). [Discussion sobre quarto](https://github.com/quarto-dev/quarto-cli/discussions)  y las [issues](https://github.com/quarto-dev/quarto-cli/issues)
 
+- **Extensiones:** [Developping with Lua](https://quarto.org/docs/extensions/lua.html), [Listado de extensiones](https://quarto.org/docs/extensions/)
+
 ### Mas
 
 -   [Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day){target="_blank"}
 
 -   [We don't talk about Quarto](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/){target="_blank"} de Apres Hill
+
+- [What is Quarto? RStudio quietly rolls out next-generation R Markdown](https://www.infoworld.com/article/3666743/what-is-quarto-rstudio-quietly-rolls-out-next-generation-r-markdown.html)
 
 -   [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/){target="_blank"} de Bae Milz
 
@@ -165,6 +181,8 @@ The .column-margin class is handy for margin asides, but there are several other
 -   Un video: [How to style you quarto](https://www.youtube.com/watch?v=ErRX8plZpQE){target="_blank"}
 
 -   [Crear un quarto blog](https://www.backyardstats.org/posts/create-quarto-blog/){target="_blank"}
+
+- [Experimenting with Quiarto](https://tshafer.com/blog/2022/06/experimenting-with-quarto)
 
 ### Ejemplos
 
@@ -183,6 +201,8 @@ The .column-margin class is handy for margin asides, but there are several other
 -   [Backyard Statistics](https://www.backyardstats.org/){target="_blank"}
 
 #### Slides
+
+- [Revealing research A case study with reveal.js slides](https://www.apreshill.com/blog/2021-07-revealing-research/) de ApresHill
 
 - Emi Tanaka se pasa revealjs [How to transition from xaringan to Quarto revealjs](https://emitanaka.org/posts/2022-07-11-transitioning-from-xaringan-to-quarto-revealjs/)
 
