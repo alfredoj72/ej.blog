@@ -30,7 +30,7 @@ Cómo se dice en su página web:
 
 > Quarto® is an open-source scientific and technical publishing system built on Pandoc
 
-Es como una "segunda versión" de Rmarkdown:
+Es como una "segunda generación" de Rmarkdown:
 
 > Quarto is a multi-language, next generation version of R Markdown from RStudio, with many new features and capabilities. Like R Markdown, Quarto uses Knitr to execute R code, and is therefore able to render most existing Rmd files without modification.
 

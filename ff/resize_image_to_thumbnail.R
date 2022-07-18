@@ -5,6 +5,7 @@
 
 #- cojo el post mas moderno (x fecha)
 carpetas_de_posts <- fs::dir_ls(here::here("posts"), type = "directory")
+carpeta <- carpetas_de_posts[1] #- la ruta a la carpeta más antigua
 carpeta <- carpetas_de_posts[length(carpetas_de_posts)] #- la ruta a la carpeta más moderna
 
 img <-  magick::image_read(here::here(carpeta, "imagenes", "imagen.png"))
