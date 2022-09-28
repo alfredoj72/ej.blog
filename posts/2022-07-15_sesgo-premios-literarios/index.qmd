@@ -1,34 +1,102 @@
 ---
 title: "Sesgo de genero en los premios literarios españoles"
-date: 2022-05-16
+date: 2022-07-16
 categories: [sesgo genero, literatura, wikidata]
 css: assets/my_css_file.css 
 draft: true
 image: "imagenes/thumbnail.png"
 ---
 
-Se presenta información sobre el sesgo de genero en los premios literarios españoles.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
+Se presenta información sobre sesgo de genero en los premios literarios españoles. Para la obtención de algunas características de los premiados, incluido el género, se hicieron consultas SPARQL a Wikidata.
 
 <br>
 
 ## Introducción
 
-Quiero analizar con datos si hay sesgo de genero en los premios literarios españoles. La verdad es que estoy seguro de que sí que hay, la cuestión es cuanto y si está descendiendo. Que poco sé de sesgo de genero, pero entiendo lo que cuenta Natalie Kon-yu [aquí](https://lithub.com/on-sexism-in-literary-prize-culture/) y entiendo esto:
+En este post voy a intentar analizar con datos si hay sesgo de genero en los premios literarios españoles. La verdad es que estoy seguro de que sí que hay, la cuestión es cuanto y si está descendiendo. No voy a entrar en las razones/explicaciones/causas, entre otras cosas porque hay mucha gente que se dedica a ello y yo sé muy poquito de cuestiones de genero, pero entiendo lo que cuenta Natalie Kon-yu [aquí](https://lithub.com/on-sexism-in-literary-prize-culture/) y creo que entiendo esto:
 
-> Men’s writing is just writing and everything else is a sub-classification  -- by [Natalie Kon-yu](https://lithub.com/author/natalie-kon-yu/)
-
-Empecé el análisis el jueves 14 de julio de 2022
-Lo primero es seleccionar un conjunto de premios literarios. Tras un poco de mirar y reflexionar me decidí a empezar el análisis con los siguientes premios: 
-
-- [Premio Nadal](https://es.wikipedia.org/wiki/Premio_Nadal#ganadores_y_finalistas)
-
-- [Premio Planeta](https://es.wikipedia.org/wiki/Premio_Planeta)  solo 2021
-
-- [Premio Princesa de Asturias de las Letras](https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_las_Letras)
 
 ::: column-margin
-No sé de cuestiones de genero, pero estas cuestiones **existen**
+Como las *meigas*, los sesgos de genero, por no decir discriminación,  **existen**^[Que va, que va, yo no estoy sesgado!!].
 :::
+
+> Men’s writing is just writing and everything else is a sub-classification  -- by [Natalie Kon-yu](https://lithub.com/author/natalie-kon-yu/).
+
+
+
+
+En mi análisis simplemente recogeré los datos lo mejor que pueda, haré algunas visualizaciones y comentaré un poco los resultados. Más que suficiente.
+
+
+::: column-margin
+¿Existen también en los premios literarios? Veremos.
+:::
+
+## Selección de los premios
+
+
+Lo primero que hice fue seleccionar un conjunto de premios literarios. Tras un poco de mirar por internet en blogs y [este listado](https://es.wikipedia.org/wiki/Categor%C3%ADa:Premios_literarios_de_Espa%C3%B1a) de Wikipedia, me decidí a empezar el análisis con los siguientes premios:  [Premio Cervantes](https://es.wikipedia.org/wiki/Premio_Miguel_de_Cervantes),  [Premio Nadal](https://es.wikipedia.org/wiki/Premio_Nadal), [Premio Planeta](https://es.wikipedia.org/wiki/Premio_Planeta), [Premio Princesa de Asturias de las Letras](https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_las_Letras), [Premio Nacional de las Letras Españolas](https://es.wikipedia.org/wiki/Premio_Nacional_de_las_Letras_Espa%C3%B1olas) y los premios nacionales de  [Narrativa](https://es.wikipedia.org/wiki/Premio_Nacional_de_Narrativa_(Espa%C3%B1a)), [Ensayo](https://es.wikipedia.org/wiki/Premio_Nacional_de_Ensayo_(Espa%C3%B1a)) y [Poesía](https://es.wikipedia.org/wiki/Premio_Nacional_de_Poes%C3%ADa_(Espa%C3%B1a)). En total, 8 premios literarios.
+
+
+::: column-margin
+Elegí 8 de los principales premios literarios españoles.
+:::
+
+
+Como **curiosidad**, y según la [página de Wikipedia del Premio Nacional de Poesía](https://es.wikipedia.org/wiki/Premio_Nacional_de_Poes%C3%ADa_(Espa%C3%B1a)), se indica que este premio tuvo 2 épocas: de 1924 a 1973 cuando se llamaba "Concurso Nacional de Literatura en la modalidad de Poesía", y de 1977 hasta la actualidad, donde ya se denomina "Premio Nacional de Poesía". Decir que en el análisis solo utilizaré los datos de la segunda época, concretamente los bajaré de [aquí](), **pero** si miramos la lista de premiados de la primera época, de un total de 28 premiados, sólo hay 2 mujeres: [Alfonsa de la Torre](https://es.wikipedia.org/wiki/Alfonsa_de_la_Torre), que compartió premio con José García Nieto en 1951 y [Carmen Conde](https://es.wikipedia.org/wiki/Carmen_Conde) en 1967. Bueno como veis los datos cantan un poco sólo 2 de 28, **un 7.1%, de los premios fueron para mujeres**.
+
+
+::: column-margin
+En la "primera época" del Premio nacional de Poesía (1924-1973), de un total de 28 premiados, sólo hubo 2 mujeres.
+:::
+
+**No empezamos bien!!!** Bueno, era otra época, y ..., y ... veremos que ocurre en fechas más recientes. Además, no es que yo sea un gran entendido en poesía ... pero, ¿donde está [Gloría Fuertes](https://es.wikipedia.org/wiki/Gloria_Fuertes)? Sí, Gloría Fuertes recibió algunos [premios](https://es.wikipedia.org/wiki/Gloria_Fuertes#Premios) pero nunca el Nacional de Poesía. In my opinion, not fair!!!
+ 
+ 
+::: column-margin
+Gloría Fuertes debería tener, al menos, 2 premios nacionales de poesía.
+:::
+
+## Obtención de los datos
+
+Empecé a escribir el post el jueves 14 de julio de 2022, pero la obtención de los datos la hice antes, posiblemente en torno a finales de marzo de 2022. Esto es importante porque es posible que a fecha de hoy (29 de julio), es posible que ya se haya concedido algún premio en 2022, pero no entrará en mi análisis. No voy a repetir el proceso de recopilación de datos, así que mis datos sólo recogerán los premiados **hasta 2021 inclusive**.
+
+
+::: column-margin
+Los datos recogen los premiados hasta 2021 inclusive.
+:::
+
+
+Los datos referentes al listado de ganadores no es que se complicado, pero tampoco es inmediato obtenerlos. El listado de premiados de los premios [Cervantes](https://es.wikipedia.org/wiki/Premio_Miguel_de_Cervantes#Galardonados) , [Princesa de Asturias](https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_las_Letras#Lista_de_galardonados), [Nadal](https://es.wikipedia.org/wiki/Premio_Nadal#ganadores_y_finalistas) y [Planeta](https://es.wikipedia.org/wiki/Premio_Planeta#Ganadores_y_finalistas) los obtuve (mediante web scraping) de las tablas de la Wikipedia. Para el resto de premios (incluido el Nacional de las Letras) los obtuve, a mano, copiando y pegando, de la [página web](https://www.culturaydeporte.gob.es/cultura/libro/premios/listado-de-premios/premios-nacionales.html) del Ministerio de Cultura.
+
+
+::: column-margin
+Fue fácil obtener el listado de ganadores ...
+:::
+
+Perfecto, ya tenía el listado de ganadores, pero me faltaba el genero. Podía hacerlo mirando los nombres, pero tenia que revisar un total de 414 premiados, como hay autores que recibieron varios premios, tenía que revisar **317 escritores**. Factible, no demasiado pesado, pero para que hacerlo fácil^[Escribo en el blog por gusto y para aprender Ciencia de Datos]. Decidí obtener el genero y otras características de los premiados haciendo **consultas a Wikidata**. Quien no sepa lo que es Wikidata puede ver [este video](). Wikidata es digamos similar a Wikipedia pero en datos. Aún le falta un poco, o bastante para ser perfecta, ojala tuviera apoyo público, pero Wikidata es la mayor base de datos actual y el sueño de los enciclopedistas.
+
+
+::: column-margin
+ ... pero **faltaba el género**, así que me fuí a [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+:::
+
+Tras hacer las consultas a Wikidata obtuve, para cada premiado, el genero (la variable principal del análisis), pero también, la nacionalidad, el lugar y fecha de nacimiento y la institución(es) en la que estudiaron los galardonados. Con estas variables adicionales haré algunas visualizaciones y análisis distintos al del meramente de genero.
+
+
+Ahora ya has de cargar los datos y empezar a hacer el análisis y los gráficos
+
 
 <br><br>
 

@@ -10,6 +10,18 @@ nocite: |
   @*
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
+
 Como todo blog que se precie, 😜, en el primer post describiré (un poco) el proceso de creación del blog. Post provisional (WORK IN PROGRESS!!)
 
 <br>

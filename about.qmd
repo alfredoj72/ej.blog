@@ -23,6 +23,18 @@ about:
       href: https://orcid.org/0000-0001-9375-6330
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
+
 Pedro J. Pérez, trabajo como PDI en la Universitat de València, concretamente en el departamento de Análisis Económico de la Facultad de Economía. Blah blah ... (en breve)
 
 

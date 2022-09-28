@@ -10,6 +10,17 @@ crossref:
   tbl-title: Tabla    # (default is "Table")
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
 Utilizando datos de los censos históricos y del Padrón, se realizan visualizaciones de la evolución del número de municipios españoles en el tiempo, desde el censo de 1842 hasta la actualidad.
 
 <br>
@@ -68,7 +79,7 @@ Sin embargo, el último censo publicado es de 2011 y estamos en 2022, así que s
 Añadiendo los datos del Padrón, ese número aumenta hasta los **11.926 municipios**.
 :::
 
-Como actualmente, con datos del Padrón de 2021, existen 8.131 municipios, eso quiere decir que desde el censo de 1842 se ha reducido el número de municipios en 3.795.
+Como actualmente, con datos del Padrón de 2021, existen 8.131 municipios^[Hay otra forma de obtener el listado de municipios actuales; a través del [Registro de entidades locales](https://www.mptfp.gob.es/portal/politica-territorial/local/sistema_de_informacion_local_-SIL-/registro_eell.html), concrétamente el listado de municipios se puede obtener [aquí](https://ssweb.seap.minhap.es/REL/). Pues bien otra complicación más, de la que me enteré también por Paco Goerlich: en el REL existe un "municipio" (Tharsis, con código 21901) que nunca ha estado presente en el Padrón. Misterios de las estadísticas oficiales!!!  Igual [esta noticia](https://www.cope.es/emisoras/andalucia/huelva-provincia/noticias/tharsis-seguira-perteneciendo-municipio-alosno-20211217_1683097) puede arrojar algo de luz, parece que la Junta de Andalucia aprobó la segregación de Tharsis de Alosno, pero finalmente el Tribunal Supremo confirmó la sentencia del TSJA anulando el decreto de segregación de Tharsis de Alosno; sin embargo,  a pesar de estar en una situación similar, si aparece en el Padrón el municipio de La Zarza-Perrunal (21902)], eso quiere decir que desde el censo de 1842 se ha reducido el número de municipios en 3.795.
 
 ## Evolución del número de municipios (Censos)
 

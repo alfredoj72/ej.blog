@@ -98,7 +98,7 @@ Imagenes con `knitr`
 
 ## Z. TRUCOS
 
-- En el `[post anterior](/posts/2022-07-12_censos-historicos_01/index.html) ` se hace con `(/posts/2022-07-12_censos-historicos_01/index.html)`
+- En el `[post anterior](/posts/2022-07-12_censos-historicos_01/index.html)` se hace con `(/posts/2022-07-12_censos-historicos_01/index.html)`
 
 -   Para que a la lista de post no se incorporen todos los ficheros `*.qmd` si no solo algunos. Lo explica Mine [aquí](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/06-listing-contents/){target="_blank"}
 
@@ -122,7 +122,7 @@ The .column-margin class is handy for margin asides, but there are several other
 -   Insertar una web o unas slides o cualquier cosa, lo explica Mine [aquí](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/12-html-block/). Es un quarto tip.
 
 
-- [Actualizar Quiarto con homebrew](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/13-homebrew/)
+- [Actualizar Quuarto con homebrew](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/13-homebrew/)
 
 
 

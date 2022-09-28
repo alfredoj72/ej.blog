@@ -8,6 +8,17 @@ image: "imagenes/thumbnail.jpg"
 ---
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
+
 Utilizando datos de los censos históricos y del Padrón, se presentan visualizaciones del ranking de ciudades españolas más pobladas desde el censo de 1842 hasta la actualidad. (Post provisional!!!) Work in progress!!!
 
 

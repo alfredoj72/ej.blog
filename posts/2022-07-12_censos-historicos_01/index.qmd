@@ -15,13 +15,24 @@ nocite: |
   @*
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-917JYLBY8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-917JYLBY8E');
+</script>
+
 Se describe el proceso de obtención y procesado de los datos de los censos históricos de población en España (1842-2011) que ofrece el INE.
 
 <br>
 
 ## Introducción
 
-A todos nos gusta saber cuantos habitantes tiene nuestro pueblo; y como nos dice [el conde Draco](https://www.youtube.com/watch?v=KZmLI7eYjmw){target="_blank"} esto se hace en los censos. Un **censo** de población es una operación estadística cuyo principal objetivo es hacer un recuento de la población, así como de sus principales características sociales y demográficas. En este post describo el proceso que tuve que para **obtener y procesar los datos de los censos históricos de población** en España que ofrece el INE en su web. En posteriores posts se supone que los usaré para hacer algunas visualizaciones y análisis, como por ejemplo, la evolución del ranking de capitales de provincia más pobladas o la evolución de la importancia (en términos de población) de las capitales provinciales en su propia provincia; además, seguro que utilizo estos datos en mi curso de introducción a R en la UV. Son datos chulos y no exigen mucha carga mental para analizarlos.
+A todos nos gusta saber cuantos habitantes tiene nuestro pueblo; y como nos dice [el conde Draco](https://www.youtube.com/watch?v=KZmLI7eYjmw){target="_blank"} esto se hace en los censos. Un **censo** de población es una operación estadística cuyo principal objetivo es hacer un recuento de la población, así como de sus principales características sociales y demográficas. En este post describo el proceso que tuve que hacer para **obtener y procesar los datos de los censos históricos de población** en España que ofrece el INE en su web. En posteriores posts se supone que los usaré para hacer algunas visualizaciones y análisis, como por ejemplo, la evolución del ranking de capitales de provincia más pobladas o la evolución de la importancia (en términos de población) de las capitales provinciales en su propia provincia; además, seguro que utilizo estos datos en mi curso de introducción a R en la UV. Son datos chulos y no exigen mucha carga mental para analizarlos.
 
 ::: column-margin
 **Objetivo:** Obtener los datos de los censos históricos (1842-2011) ofrecidos por el INE.

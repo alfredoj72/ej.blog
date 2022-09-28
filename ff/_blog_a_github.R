@@ -1,4 +1,5 @@
 #- para llevar el blog a Github
+# git remote add origin https://github.com/perezp44/intro-ds-22-23-web.git
 
 #usethis::use_git_config(user.name = "Jane", user.email = "jane@example.org")
 
@@ -9,7 +10,7 @@ usethis::use_git()  #- activa GIT. Le h dicho que SÍ. Se reinicia RStudio para 
 #- GITHUB ----------------------------------------------------------------------
 #-  Una vez RStudio se haya reiniciado, ejecutas en la CONSOLA: usethis::use_github()  . Te preguntará que qué git protocol quieres usar. Selecciona https. Te preguntará si la Description está OK. Le dices que SI. Se creará el repo en Github y añadirá el remote origin y alguna cosa mas y lo dejará casi niquelado.
 usethis::use_github() #- esta vez si ha funcionado (tras poner el token a mano)
-
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)  #- por si ya tenía un origin
 #usethis::gh_token_help() #- deberia guardar el TOKEN, pero ...
 #- si el usethis::use_github() no funcionase, tendrías que hacerlo a mano:
 #- 1) te vas a Github y creas un repo con el mimos nombre
